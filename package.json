@@ -1,0 +1,10 @@
+{
+    "type": "commonjs",
+    "name": "@autexis/balluff-rfid",
+    "version": "0.0.1",
+    "main": "lib/index.js",
+    "repository": "https://github.com/Autexis-IT/balluff-rfid.git",
+    "author": "Autexis IT <info@autexis.com>",
+    "license": "MIT",
+    "private": false
+}
