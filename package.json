@@ -1,10 +1,15 @@
 {
-    "type": "commonjs",
     "name": "@autexis/balluff-rfid",
-    "version": "0.0.1",
-    "main": "lib/index.js",
+    "version": "0.0.2",
+    "main": "index.js",
     "repository": "https://github.com/Autexis-IT/balluff-rfid.git",
     "author": "Autexis IT <info@autexis.com>",
     "license": "MIT",
-    "private": false
+    "private": false,
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "dependencies": {
+        "@autexis/balluff-007-protocol": "0.0.1"
+    }
 }

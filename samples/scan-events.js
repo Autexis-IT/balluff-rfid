@@ -1,6 +1,6 @@
-const baluffRfid = require("../lib/index.js");
+const balluffRfid = require("../lib/index.js");
 
-const conn = baluffRfid.connect({
+const conn = balluffRfid.connect({
     ipAddress: "192.168.10.2",
     port: 10003,
 
@@ -33,7 +33,7 @@ const conn = baluffRfid.connect({
     },
 
     onError: (err) => {
-        console.error("baluff error", err);
+        console.error("balluff error", err);
         conn.close();
     }
 });
